@@ -18,7 +18,7 @@ namespace Paup2021_Vjezbe.Controllers
         public ActionResult Druga()
         {
             ViewBag.Ustanova = "Međimursko veleučilište";
-            ViewData["Lokacija"] = "Čakovec";
+            ViewData["Lokacija"] = "Varazdin";
             return View();
         }
 
